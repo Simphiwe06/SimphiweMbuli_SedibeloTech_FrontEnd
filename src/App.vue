@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <PieChart :data="chartData" />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PieChart from './components/PieChart.vue';
+import pieChartData from '../public/pieChart.json';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PieChart
+  },
+  data() {
+    return {
+      chartData: pieChartData
+    };
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Add global styles here if needed */
 </style>
