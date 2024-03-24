@@ -46,7 +46,7 @@
             responsive: true,
             maintainAspectRatio: false,
             legend: {
-              display: false // Hide legend from chart
+              display: false 
             }
           }
         });
@@ -64,23 +64,23 @@
   
   /* Chart header */
   .chart-header {
-    margin-bottom: 30px; /* Increase margin */
+    margin-bottom: 30px; 
   }
   
   .chart-title {
-    font-size: 32px; /* Enlarge the heading */
+    font-size: 32px; 
     font-weight: bold;
   }
   
   .chart-description {
-    font-size: 18px; /* Increase font size */
+    font-size: 18px; 
     color: #666;
   }
   
   /* Chart canvas */
   .chart canvas {
-    width: 90%; /* Increase width */
-    max-width: 600px; /* Increase maximum width */
+    width: 90%; 
+    max-width: 600px; 
     height: auto;
     margin: auto;
     display: block;
@@ -90,30 +90,30 @@
   .legend {
     display: flex;
     justify-content: center;
-    margin-top: 30px; /* Increase top margin */
+    margin-top: 30px; 
   }
   
   .legend-item {
     display: flex;
     align-items: center;
-    margin-right: 30px; /* Increase right margin */
+    margin-right: 30px; 
   }
   
   .legend-circle {
-    width: 12px; /* Increase circle size */
-    height: 12px; /* Increase circle size */
+    width: 12px; 
+    height: 12px; 
     border-radius: 50%;
     display: inline-block;
-    margin-right: 8px; /* Adjust spacing */
+    margin-right: 8px; 
   }
   
   .legend-label {
-    font-size: 18px; /* Increase font size */
-    font-weight: bold; /* Make the numbers bold */
+    font-size: 18px; 
+    font-weight: bold; 
   }
   
-  /* Change background color */
+  
   body {
-    background-color: #f0f0f0; /* Change to the color you desire */
+    background-color: #f0f0f0; 
   }
   </style>

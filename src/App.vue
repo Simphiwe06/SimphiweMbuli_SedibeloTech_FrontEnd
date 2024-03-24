@@ -20,3 +20,10 @@ export default {
   }
 };
 </script>
+
+<style>
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Use a commonly available font */
+}
+</style>
