@@ -1,0 +1,60 @@
+/* Component container */
+.pie-chart-container {
+    text-align: center;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  /* Chart header */
+  .chart-header {
+    margin-bottom: 30px; 
+  }
+  
+  .chart-title {
+    font-size: 32px; 
+    font-weight: bold;
+  }
+  
+  .chart-description {
+    font-size: 18px; 
+    color: #666;
+  }
+  
+  /* Chart canvas */
+  .chart canvas {
+    width: 90%; 
+    max-width: 600px; 
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  
+  /* Legend */
+  .legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; 
+  }
+  
+  .legend-circle {
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px; 
+  }
+  
+  .legend-label {
+    font-size: 18px; 
+    font-weight: bold; 
+  }
+  
+  body {
+    background-color: #f0f0f0; 
+  }
+  
